@@ -1,0 +1,52 @@
+*
+{
+	font-size: x-large;
+
+}
+
+#MainBox
+{
+	height: 395px;
+	width: 350px;
+	border: 4px solid #03cafc;
+	padding: 10px;
+}
+.calc
+{
+	display: flex;
+}
+#OutputLine
+{
+	font-size: 30px;
+    border: 1px solid black;
+    padding: 5px;
+    text-align: right;
+    margin-bottom: 10px;
+
+}
+#Rows
+{
+	width: 100%;
+	height: 100%;
+}
+.Row
+{
+	display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+button
+{
+	width: 67px;
+	height: 67px;
+}
+.Column
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 298px;
+	padding-top: 10px;
+	padding-left: 7px;
+
+}
