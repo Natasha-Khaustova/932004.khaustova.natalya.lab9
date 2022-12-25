@@ -1,52 +1,47 @@
 *
 {
-	font-size: x-large;
-
+    font-family: Arial, Helvetica, sans-serif;
 }
-
-#MainBox
+main
 {
-	height: 395px;
-	width: 350px;
-	border: 4px solid #03cafc;
-	padding: 10px;
+    border: 3px solid #76b3d8;
+    width: 400px;
+    padding: 9px;
 }
-.calc
+.inp
 {
-	display: flex;
-}
-#OutputLine
-{
-	font-size: 30px;
-    border: 1px solid black;
-    padding: 5px;
+    width: 388px;
+    height: 60px;
+    font-size: 48px;
+    /* letter-spacing: 8px; */
+    color:rgb(143, 143, 143);
     text-align: right;
-    margin-bottom: 10px;
+}
 
-}
-#Rows
+table
 {
-	width: 100%;
-	height: 100%;
+    border-spacing: 5px
 }
-.Row
-{
-	display: flex;
-    justify-content: space-between;
-    margin: 10px 0;
-}
-button
-{
-	width: 67px;
-	height: 67px;
-}
-.Column
-{
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	height: 298px;
-	padding-top: 10px;
-	padding-left: 7px;
 
+td
+{
+    width:75px; 
+    height:75px;
+    border: solid 1px rgb(194, 192, 192);
+    background-color: #ecebeb; 
+    text-align: center;
+    font-size: 40px;
 }
+td:hover
+{
+    border:1px solid #5790f8;
+}
+
+#inputting
+{
+    position:absolute;
+    top: 25.3px;
+    color: black;
+    left: 26px;
+    font-size: 48px;
+} 
